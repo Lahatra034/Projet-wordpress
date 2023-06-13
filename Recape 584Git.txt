@@ -1,0 +1,15 @@
+=>https://www.gite-josefine-voltaire.fr/
+
+*Prise en main:
+*Analyse des extentions d'optimisation déja installé:
+-Autoptimize
+-Imagify
+-WP Super Cache
+
+*Installation de nouvel extension:
+-LiteSpeed Cache:
+   -Activation du: cache mobile
+
+=>En analysant tous les extensions, seule l'activation du cache mobile dans l'extension du LiteSpeed sont possibles car 
+l'ajout ou la modification d'extension risque d'endommager l'interface actuelle;
+Mais tous de même, L'ajout de la nouvelle extension obtient un bon résultat car la performance mobile a augmenter de 8%
