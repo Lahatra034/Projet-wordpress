@@ -1,6 +1,28 @@
-bonjour
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exemple plein écran</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 200vh; /* assez de hauteur pour permettre le scroll */
+    background: linear-gradient(to bottom, #0b93f9, #2b3193);
+  }
+</style>
+</head>
+<body>
+<h1>Bonjour ! Faites défiler vers le bas</h1>
 
-<?php
-
-echo "test PHP";
-?>
+<script>
+  // Au chargement, scroll pour pousser la barre d'adresse hors écran
+  window.addEventListener("load", function() {
+    setTimeout(function() {
+      window.scrollTo(0, 1);
+    }, 100);
+  });
+</script>
+</body>
+</html>
